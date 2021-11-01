@@ -1,0 +1,98 @@
+header{
+    background: url(./background1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100% !important;
+/* position: absolute; */
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+form.example input[type=text] {
+padding: 10px;
+font-size: 17px;
+border: 1px solid grey;
+float: left;
+width: 80%;
+height: 5%;
+background: #f1f1f1;
+}
+
+form.example button {
+float: left;
+width: 20%;
+height: 5%;
+padding: 10px;
+background: #2196F3;
+color: white;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none;
+cursor: pointer;
+}
+
+form.example button:hover {
+background: #0b7dda;
+}
+
+form.example::after {
+content: "";
+clear: both;
+display: table;
+}
+.col-lg-3.col-xl-3 {
+    margin-top: -10px;
+}
+@media(max-width:972px){
+    .col-lg-3.col-xl-3 {
+        margin-top: 0px;
+    }
+}
+@media(max-width:1200px){
+    h4.card-title{
+        font-size: large;
+    }
+}
+
+.list a:link,.list a:visited {
+background-color: transparent;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+  
+.list a:hover,.list a:active {
+background-color: tomato !important;
+}
+
+.pricing-btn:hover,.pricing-btn:active{
+    background-color: lightblue !important;
+}
+
+.list1{
+    text-align: initial;
+    list-style: none;
+    line-height: 40px;
+}
+
+a.btn.btn-outline-dark.btn-lg.fw-bold {
+    margin: -21px;
+    padding:4px 33px ;
+}
+
+a.btn.btn-outline-dark.btn-lg.fw-bold{
+    background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%)
+}
+a.btn.btn-outline-dark.btn-lg.fw-bold:hover { 
+    background-position: right center; 
+}
+
+a.btn.btn-outline-primary.btn-lg.mt-3.fw-bold {
+    padding: 6px 43px;
+}
+card-img, .card-img-top {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
